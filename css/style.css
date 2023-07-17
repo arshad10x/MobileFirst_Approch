@@ -158,6 +158,10 @@ nav ul li a{
 
 /* Apartments Secton */
 
+section{
+    padding: 2rem 0;
+}
+
 .apartments{
     background: #F6F6F6;
 }
@@ -183,4 +187,35 @@ nav ul li a{
     color: #596172;
     text-decoration: none;
     font-size: 1rem;
+}
+
+.apartments-list-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:2rem;
+}
+
+.apartments-meta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apartments-meta span{
+    color:#596172;
+    font-size: 0.8rem;
+    padding-top: 0.4rem;
+}
+
+.apartments-card img{
+    width: 100%;
+}
+
+.apartments-title{
+    margin-top: 1rem;
+}
+
+.apartments-title a{
+    color: #2B313D;
+    text-decoration: none;
+    line-height: 1.6;
 }
