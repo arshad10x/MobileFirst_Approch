@@ -3,7 +3,8 @@
     margin: 0;
 }
 
-html{
+body{
+    height: 4000px;
     font-size: 16px;
     -webkit-font-smoothing:antialized;
     font-family: 'Roboto', sans-serif;
@@ -155,3 +156,19 @@ nav ul li a{
 
 
 
+/* Apartments Secton */
+
+.apparments{
+    background: #F6F6F6;
+}
+
+.apparments .section-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.apparments .section-heading{
+    font-weight: 400;
+}
